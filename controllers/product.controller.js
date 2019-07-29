@@ -5,6 +5,11 @@ exports.test = function (req, res) {
     res.send('Greetings from the Test controller!');
 };
 
+exports.testagain = function (req, res) {
+    res.send('Greetings Again from the Test controller!');
+};
+
+
 // exports.product_create = function (req, res) {
 //     let product = new Product(
 //         {
